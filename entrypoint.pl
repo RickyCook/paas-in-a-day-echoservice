@@ -5,6 +5,7 @@ use IO::Socket;
 
 if ($ARGV[0] eq 'ci') {
     print "Ain't nobody here but us chickens\n";
+    print "And a sasquatch\n";
     exit 0;
 
 } elsif ($ARGV[0] eq 'run') {
